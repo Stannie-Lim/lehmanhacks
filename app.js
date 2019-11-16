@@ -8,7 +8,7 @@ var express               = require("express"),
     app                   = express();
 
 
-mongoose.connect("mongodb://localhost/social_app");
+//mongoose.connect("mongodb://localhost/social_app");
 
 app.use(require("express-session")({
     secret: "we must kill this love its sad but its true",
@@ -39,8 +39,6 @@ app.get("/secret", function(req, res){
 app.get("/register", function(req, res){
     res.render("register");
 });
-
-
 
 
 //app.listen(process.env.PORT, process.env.IP);
