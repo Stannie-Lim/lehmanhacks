@@ -1,0 +1,15 @@
+.center {
+  margin: auto;
+  padding: 13% 1%;
+  max-width: 30%;
+  background-color: white;
+  text-align: center;
+}
+
+.registration{
+  margin: auto;
+  padding: 0% 5%;
+  max-width: 20%;
+  background-color: white;
+  text-align: center;
+}
