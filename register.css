@@ -1,0 +1,24 @@
+     body {
+          background-color: bisque;
+     }
+     .navigation_bar{
+          background-color: lightblue;
+          border-radius: 1em;
+          margin: auto;
+          text-align: center;
+          max-width: 50%;
+     }
+     .nav_list{
+          list-style-type: none;
+     }
+     .register{
+          background-color: lightgreen;
+          border-radius: 1em;
+          max-width: 50%;
+          text-align: center;
+          margin: auto;
+     }
+     .register_form{
+          text-align: left;
+          padding-left: 5em;
+     }

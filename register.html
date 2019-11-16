@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+       <style>
+       body{
+            background-color: #E9E7D8;
+       }</style>
+          <meta charset="utf-8">
+          <title>Register for food pantry</title>
+          <link rel="stylesheet" href="register.css">
+     </head>
+     <body>
+          <div class="navigation_bar">
+               <ul class="nav_list">
+                    <li><a href="regisr.html"> Register Here</a></li>
+                    <li>Already have an account? <a href="#">Sign in</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+               </ul>
+               <!-- <table>
+                    <tr>
+                         <td><a href="register.html">Register</a></td>
+                         <td>Already have an account? <a href="#">Sign in</a></td>
+                         <td><a href="#">About</a></td>
+                         <td><a href="#">Contact Us</a></td>
+                    </tr>
+               </table> -->
+          </div>
+
+          <div class="register">
+            <!-- This second div class puts the white box in the middle of the screen -->
+            <div class ="center">
+               <p>Register here for the food pantry</p>
+               <form class="register_form"  method="post">
+                    <label for="fname">First Name:</label>
+                    <br>
+                    <input type="text" name="fname" pattern="[A-Za-z]{}" title="Can contain only letters" required>
+                    <br>
+
+                    <label for="lname">Last Name: </label>
+                    <br>
+                    <input type="text" name="lname" pattern="[A-Za-z]{}" title="Can contain only letters" required>
+                    <br>
+
+                    <label for="birthday">Date of Birth: </label>
+                    <br>
+                    <input type="date" name="birthday" required>
+                    <br>
+
+                    <label for="address">Address: </label> <br>
+                    <input type="text" name="address" required>
+                    <br>
+
+                    <label for="address_2">Address 2: </label><br>
+                    <input type="text" name="address_2">
+                    <br>
+
+                    <label for="zipcode">Zipcode:</label> <br>
+                    <input type="text" name="zipcode" pattern="[0-9]{5}" title="Enter a 5 digit zipcode" required>
+                    <br>
+
+                    <label for="username">Username:</label>
+                    <br>
+                    <input type="text" name= "username" pattern=".{8,15}" title="Username must be between 8 and 15 characters" required>
+                    <br>
+
+                    <label for="pword">Password</label> <br>
+                    <input type="password" name = "pword" pattern="{.6}" title="Requires 6 or more characters" required>
+                    <br>
+
+                    <!-- Email needs to contain @ and .com but cannot contain other symbols (!#$%^&*) -->
+                   <label for="email">Email:</label>
+                   <br>
+                   <input type="email" name= "email" pattern="[A-Za-z]{1,15}{@.}" title="Can contain only letters and numbers" required>
+                   <br>
+                   <br>
+                   <input type='submit' value="Register">
+                    <br>
+               </form>
+             </div>
+          </div>
+
+     </body>
+</html>
